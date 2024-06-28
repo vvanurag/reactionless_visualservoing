@@ -1,18 +1,35 @@
 ---
-title: Colophon
-permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
-comments: false
+title: About Science and Technology Blog
 ---
+## About
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+This is a simple template for creating a Science and Technology Blog.
 
-If you have a question about him or else, just send a letter to him.
+The template contain following features:
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+### Jekyll-based website
+- This code-base is meant to host on [github pages](https://pages.github.com/).
+- Github pages uses [Jekyll](https://jekyllrb.com/) that can convert your
+markdown pages into beautiful looking blog pages without needing to
+write cumbersome HTML code.
+- Once you set up the site, blogging becomes as fast as using any online service
+such as Wordpress, Blogger, etc.
 
-**may u needs ✨**
+### Free website publishing with Github-pages
+- Since Github public repositories are free, you do not need to pay a cent to
+anyone for publishing your blog.
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+### Commenting with Disqus
+- The template has included Disqus comments. So, if enabled, your readers can
+comment on any of your posts.
+- This also makes sharing your writings on social platforms easy.
+- Disqus basic account is for free and avails you with most of its features.
+
+### Latex rendering
+- If you have a scientific mind and you do not shy away from equations, the
+website is MathJax enabled. You can simply type your math equations in
+Latex format.
+
+### Code
+- You can also demonstrate your code in `code blocks`.
