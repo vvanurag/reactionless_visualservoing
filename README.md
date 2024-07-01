@@ -1,55 +1,31 @@
-# Science and Technology Blog template <img align="right" width="150" height="100" src="img/logo.svg">
+A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
-## Installation instructions
+I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
 
-1. **Install Jekyll**: The instructions are given in [post](_posts/2018-05-14-install-jekyll.md)
-2. **Edit _config.yml** file:
-    - Change baseurl to your folder name.
-    - Change the respective URLs and variable names.
-    - **If you want to enable disqus comments, change dqs_shortname to your
-    forum's disqus_shortname**. Otherwise, turn comments to false.
-3. You might want to change the URLs in `_includes/link.html` file.
+### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
-Now your science and technology blog is up and running. Happy blogging!
+# Instructions
 
-## Notes
-- Make sure you commit changes to the branch from which github pages are published.
-- I have only tested this repository on Ubuntu 16.04. If everything doesn't work smoothly,
-you'll probably have to look it up.
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+1. Check status by going to the repository settings, in the "GitHub pages" section
+1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-## About
+See more info at https://academicpages.github.io/
 
-This is a simple template for creating a Science and Technology Blog.
+## To run locally (not on GitHub Pages, to serve on your own computer)
 
-The code base is inspired from [Emerald repository](https://github.com/KingFelix/emerald).
+1. Clone the repository and made updates as detailed above
+1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
+1. Run `bundle clean` to clean up the directory (no need to run `--force`)
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
 
-The template contain following features:
+# Changelog -- bugfixes and enhancements
 
-### Jekyll-based website
-- This code-base is meant to host on [github pages](https://pages.github.com/).
-- Github pages uses [Jekyll](https://jekyllrb.com/) that can convert your
-markdown pages into beautiful looking blog pages without needing to
-write cumbersome HTML code.
-- Once you set up the site, blogging becomes as fast as using any online service
-such as Wordpress, Blogger, etc.
+There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
 
-### Free website publishing with Github-pages
-- Since Github public repositories are free, you do not need to pay a cent to
-anyone for publishing your blog.
-
-### Commenting with Disqus
-- The template has included Disqus comments. So, if enabled, your readers can
-comment on any of your posts.
-- This also makes sharing your writings on social platforms easy.
-- Disqus basic account is for free and avails you with most of its features.
-
-### Latex rendering
-- If you have a scientific mind and you do not shy away from equations, the
-website is MathJax enabled. You can simply type your math equations in
-Latex format.
-
-### Code
-- You can also demonstrate your code in `code blocks`.
-
-## Contribution
-If you want to contribute to the repository to improve the code, feel free to submit a pull request.
+To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
