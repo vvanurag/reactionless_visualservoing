@@ -1,25 +1,23 @@
 ---
+layout: about
 permalink: /
-title: "Welcome to my homepage!"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+title: <strong>Your</strong> Name
+description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  address: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
+
+news: true
+social: true
 ---
 
-I am currently working as Senior Data Scientist at Capgemini Engineering working in the field of Life Sciences. I do research and help client companies in building data-driven solutions. I am currently focussing on use of quantum computing and machine learning to accelerate the developments in energy (battery material discovery) and aerospace sector.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Previously I worked as a Data Scientist and Scientific Software Developer at the [Image and Data Analysis Facility](https://www.dzne.de/en/research/core-facilities/image-and-data-analysisfacility) at German Center for Neurodegenerative Diseases (DZNE).
-At DZNE, I used state of the art computer vision and machine learning tools to understand the factors leading to neurodegenerative diseases. We collaborated with several large pharmaseuticals for testing ex-vivo models for drug development.
+Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Before that I worked as a research staff at [Hochschule Bonn-Rhein-Sieg](https://www.h-brs.de/) at the [International Center for Sustainable Development](https://www.h-brs.de/en/izne) working on realistic traffic flow modelling as well as use of machine learning optimization methods for smart-city infrastructure planning.
-
-Before that I worked at [Research Center CAESAR](https://www.caesar.de/) in the [Department of Behaviour and Brain Organization](https://www.caesar.de/en/our-research/current-groups/behavior-and-brain-organization/research-focus.html) primarily working on building mathematical models for pupil-tracking of freely-moving animals. These models help us construct an accurate representation of the external world from animal's eye persective.
-
-Prior to that I studied theoretical physics in the [Gravitation and Relativity group](http://www.thp.uni-koeln.de/gravitation/index.html) with [Prof. Dr. Claus Kiefer](http://www.thp.uni-koeln.de/gravitation/mitarbeiter/kiefer.html) where I investigated emergent paradigms of gravity specifically focussing on the thermodynamic perspective to gravity as one of the viable candidates for the quantum theory of gravity.
-
-In my free time, I construct simulation-based experiments that falls under the umbrella term _Artificial Life_. You will find these projects while browsing through the contents of this webpage.
-These pages are intended primarily to organize my research and to provide an overview for those interested in my work.
-
-Thank you for dropping by!
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
