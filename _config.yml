@@ -9,8 +9,10 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-url: https://vvanurag.github.io # the base hostname & protocol for your site
-baseurl: /reactionless_visualservoing # the subpath of your site
+url: "https://vvanurag.github.io"
+baseurl: "/reactionless_visualservoing"
+remote_theme: alshedivat/al-folio
+
 
 last_updated: # leave blank if you don't want to display last updated
 
